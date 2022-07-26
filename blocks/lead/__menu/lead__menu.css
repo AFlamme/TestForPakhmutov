@@ -1,0 +1,10 @@
+.lead__menu {    
+    max-width: 820px;
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.header__button-search{
+    font-size: 11px;
+    color: rgb(124, 124, 124);
+    padding: 0;
+    border: 0;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    height: 17px;
+}
