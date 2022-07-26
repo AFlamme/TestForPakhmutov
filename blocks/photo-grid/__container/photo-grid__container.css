@@ -1,3 +1,6 @@
 .photo-grid__container {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16px;
 }

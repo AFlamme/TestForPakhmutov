@@ -1,7 +1,7 @@
 .header__button-search{
     font-size: 11px;
     color: rgb(124, 124, 124);
-    padding: 0;
+    padding: 0 5px;
     border: 0;
     background-color: white;
     text-align: center;

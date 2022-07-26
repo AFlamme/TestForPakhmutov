@@ -1,5 +1,6 @@
 .header__input-search{
-    width: 221px;
-    height: 18px;
+    width: 160%;      
+    box-sizing: border-box; 
+    font-size: 11px;
     border: 1px solid #999;
 }

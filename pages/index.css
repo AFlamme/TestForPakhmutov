@@ -10,6 +10,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__input-search/header__input-search.css);
 @import url(../blocks/header/__button-search/header__button-search.css);
+@import url(../blocks/header/__lang/header__lang.css);
 
 /* Блок lead */
 @import url(../blocks/lead/lead.css);

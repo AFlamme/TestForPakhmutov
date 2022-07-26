@@ -1,5 +1,30 @@
 .header__objects{    
+    width: 100%;
     display: flex;
+    list-style-type: none;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: row;      
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .header__objects {        
+        justify-content: space-between;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__objects {
+        width: 100%;        
+        justify-items: start;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header__objects {
+        width: 100%;
+    }
 }

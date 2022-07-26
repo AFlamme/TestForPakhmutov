@@ -1,21 +1,38 @@
 .lead {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 100%;
     margin: 0 auto;    
-    padding: 4px 7px 9px;    
-    border-bottom: 1px rgb(124, 124, 124, 0.6) solid;
+    padding: 4px 7px 9px;  
+}
+
+@media screen and (max-width: 1280px) {
+    .lead{
+        width: 92.5%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-        width: 90%;
+        width: 90.625%;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .lead{
+        width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .lead{
+        flex-direction: column;
+        padding: 64px 0 24px;
+    }
+}
+
+@media screen and (max-width: 750px) {
     .lead {
-        width: 100%;
-        padding-bottom: 88px;
+        margin: 0 16px;
     }
 }

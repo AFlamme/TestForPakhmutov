@@ -1,11 +1,8 @@
-.lead__name {
-    border-left: rgb(124, 124, 124, 0.6) 1px solid;
-    color: #666;
+.lead__name { 
+    text-transform: uppercase;
     text-decoration: none;
+    color: #666;
+    border-right: 1px solid #666;
+    padding: 5px 10px;
     font-size: 11px;
-    padding: 0 10px;
-}
-
-.lead__name:first-child{
-    border: 0;
 }
