@@ -1,9 +1,9 @@
 .lead {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
-    margin: 0 auto;    
-    padding: 4px 7px 9px;  
+    margin: 0 auto; 
 }
 
 @media screen and (max-width: 1280px) {
@@ -26,13 +26,12 @@
 
 @media screen and (max-width: 750px) {
     .lead{
-        flex-direction: column;
-        padding: 64px 0 24px;
+        margin: 0 16px;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 550px) {
     .lead {
-        margin: 0 16px;
+        padding-top: 5px;
     }
 }
